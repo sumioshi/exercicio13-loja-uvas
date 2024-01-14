@@ -120,11 +120,11 @@ body {
 }
 
 .carousel-control-next-icon {
-  background-image: url(./img/carousel-next.png);
+  background-image: url(./images/next.png);
 }
 
 .carousel-control-prev-icon {
-  background-image: url(./img/carousel-previous.png);
+  background-image: url(./images/prev.png);
 }
 
 .about,
@@ -145,7 +145,7 @@ body {
 
 h2:before {
   font-size: 1.8rem;
-  content: '&#10055;&#65039;';
+  content: '\1F347';
   margin-right: 12px;
 }
 
