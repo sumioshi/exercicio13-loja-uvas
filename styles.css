@@ -80,6 +80,9 @@ body {
 
 .navbar-nav {
   text-align: right;
+}
+
+.nav-item {
   list-style-type: none;
   display: flex;
   gap: 10px;
