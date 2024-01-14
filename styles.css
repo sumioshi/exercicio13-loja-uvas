@@ -60,6 +60,7 @@ body {
   border: 1px solid var(--secondary-color);
   box-shadow: rgba(55, 55, 110, 0.6) 2.4px 2.4px 3.2px;
   text-decoration: none;
+  list-style-type: none;
 }
 
 .navbar img {
