@@ -62,12 +62,6 @@ body {
   text-decoration: none;
 }
 
-.navbar-test {
-  list-style-type: none;
-  display: flex;
-  gap: 10px;
-}
-
 .navbar img {
   margin-left: 10px;
 }
