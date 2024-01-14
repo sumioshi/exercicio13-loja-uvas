@@ -60,7 +60,12 @@ body {
   border: 1px solid var(--secondary-color);
   box-shadow: rgba(55, 55, 110, 0.6) 2.4px 2.4px 3.2px;
   text-decoration: none;
+}
+
+.navbar-test {
   list-style-type: none;
+  display: flex;
+  gap: 10px;
 }
 
 .navbar img {
