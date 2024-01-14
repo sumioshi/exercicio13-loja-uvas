@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Uvas</title>
+    <link rel="stylesheet" href="/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="/images/uva.png" alt="LOGO INICIAL" class="d-inline-block align-text-top">
+                    <span>Uvas Sumioshi</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-lg-0"></ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#carousel">Destaques</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Sobre a Loja</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#products">Uvas</a>
+                        </li>
+                </div>
+            </div> 
+        </nav>
+    </div>
+    
+    <div class="container">
+        <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="carousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+                <button type="button" data-bs-target="carousel" data-bs-slide-to="1"  aria-label="Slide 2" class=""></button>
+                <button type="button" data-bs-target="carousel" data-bs-slide-to="2"  aria-label="Slide 3" class=""></button>            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/images/carousel1.png" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <p>Seja bem vindo a Loja de Uvas Sumioshi</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/carousel2.png" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <p>Uva Italia</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/carousel3.png" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <p>Uva Cabernet</p>
+                    </div>
+                </div>        
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="about" id="about">
+            <div class="card">
+            <h2>Qual a origem dessas uvas?</h2>
+            <div class="row">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia natus iure minima. Dolor, officia architecto, aliquid excepturi quidem vel rem magnam, odio mollitia eius impedit? Iste corporis tempora et impedit?</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur magni nemo praesentium consectetur sed animi illum blanditiis harum laborum sequi placeat et, rerum qui? Maxime, inventore dolorum. Corporis, dolor rem.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis itaque architecto facere soluta quas aliquid, quasi officiis nesciunt maiores minus pariatur culpa amet sequi. Natus aut quisquam repellat tenetur exercitationem!</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="products" id="produtos">
+        <h2>Uvas</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+            <div class="col">
+                <div class="card">
+                    <img src="./items/UvaBenitaka.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Uva Benitaka</h5>
+                            <p class="card-text text-center" id="value">R$ 8,90</p>
+                            <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing .</p>
+                            <button type="button" class="btn btn-product">Adicionar na cesta</button>
+                        </div>
+                    </div>
+                </div>
+            <div class="col">
+                <div class="card">
+                    <img src="./items/UvaItália.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Uva Itália</h5>
+                            <p class="card-text text-center" id="value">R$ 7,90</p>
+                            <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing .</p>
+                            <button type="button" class="btn btn-product">Adicionar na cesta</button>
+                        </div>
+                    </div>
+                </div>
+            <div class="col">
+                <div class="card">
+                <img src="./items/UvaNúbia.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Uva Núbia</h5>
+                        <p class="card-text text-center" id="value">R$ 9,90</p>
+                        <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing .</p>
+                        <button type="button" class="btn btn-product">Adicionar na cesta</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+         
+        </div>
+    </div>
+
+</div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+</body>
+</html>
