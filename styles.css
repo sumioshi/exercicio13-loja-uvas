@@ -145,7 +145,7 @@ body {
 
 h2:before {
   font-size: 1.8rem;
-  content: '\2605';
+  content: '&#10055;&#65039;';
   margin-right: 12px;
 }
 
